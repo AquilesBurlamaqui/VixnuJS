@@ -8,7 +8,7 @@ var messages = [];
 var delay = true;
 
 function onload(){
-  socket = io();
+  socket = io();    
   usernameInput = document.getElementById("NameInput");
   chatIDInput = document.getElementById("IDInput");
   messageInput = document.getElementById("ComposedMessage");
